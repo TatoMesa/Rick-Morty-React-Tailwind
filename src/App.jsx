@@ -9,7 +9,7 @@ import Episodes from './pages/Episodes';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Rick-Morty-React-Tailwind">
       <main className="min-h-screen bg-gray-900 text-white">
         <Navbar />
         <Routes>
