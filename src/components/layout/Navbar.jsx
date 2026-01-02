@@ -1,5 +1,6 @@
 import { NavLink, Link } from 'react-router-dom';
 import { useFavorites } from '../../context/FavoritesContext';
+import logo from '../../assets/Rick-and-Morty-500x281.png';
 
 function Navbar() {
     const { favorites } = useFavorites();
@@ -10,7 +11,7 @@ function Navbar() {
         <nav className="bg-gray-800 px-6 py-5 flex items-center gap-6 max-w-7xl mx-auto">
             <Link to="/characters" className="flex items-center gap-2">
                 <img
-                    src="src/assets/Rick-and-Morty-500x281.png"
+                    src={logo}
                     alt="Rick and Morty Explorer"
                     className="h-12 sm:h-20 w-auto"
                 />
