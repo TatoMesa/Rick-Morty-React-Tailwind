@@ -10,7 +10,7 @@ function Navbar() {
         <nav className="bg-gray-800 px-6 py-5 flex items-center gap-6 max-w-7xl mx-auto">
             <Link to="/characters" className="flex items-center gap-2">
                 <img
-                    src="/Rick-and-Morty-500x281.png"
+                    src="src/assets/Rick-and-Morty-500x281.png"
                     alt="Rick and Morty Explorer"
                     className="h-12 sm:h-20 w-auto"
                 />
